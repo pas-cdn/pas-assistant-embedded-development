@@ -8,6 +8,8 @@
  *   auth="your-auth-token"
  *   hostname="example.com"
  *   position="bottom-right"
+ *   disable-export
+ *   disable-source-actions
  * >
  *   <p>Carregando Assistente...</p>
  * </pas-assistant-embedded>
@@ -96,6 +98,27 @@ export interface PasAssistantEmbeddedAttributes
    * ```
    */
   position?: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right' | string
+
+  /**
+   * Esconde exportação da thread (boolean HTML: presença ou `"true"` ativa; `"false"` desativa).
+   * @example `<pas-assistant-embedded disable-export />`
+   */
+  'disable-export'?: boolean | string
+
+  /**
+   * Esconde compartilhar thread.
+   */
+  'disable-share'?: boolean | string
+
+  /**
+   * Esconde ações em sources (download / abrir link).
+   */
+  'disable-source-actions'?: boolean | string
+
+  /**
+   * Esconde upload de arquivos no prompt.
+   */
+  'disable-prompt-upload'?: boolean | string
 }
 
 declare global {
@@ -111,6 +134,7 @@ declare global {
        *   auth="your-auth-token"
        *   hostname="example.com"
        *   position="bottom-right"
+       *   disable-prompt-upload="true"
        * />
        * ```
        */
