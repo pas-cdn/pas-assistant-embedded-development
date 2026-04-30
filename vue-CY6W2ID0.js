@@ -1,7 +1,7 @@
 import t from "./css-M7EaDHN_.js";
-import e from "./javascript-CgYd5l7W.js";
-import n from "./typescript-AhniRyfZ.js";
-import a from "./json-B5-prx4F.js";
+import e from "./javascript-C25yR2R2.js";
+import n from "./typescript-RycA9KXf.js";
+import a from "./json-DxJze_jm.js";
 import s from "./html-CPZ3oZQ7.js";
 import i from "./html-derivative-B2qv7eyt.js";
 const u = Object.freeze(JSON.parse('{"fileTypes":[],"injectTo":["text.html.markdown"],"injectionSelector":"L:text.html.markdown","name":"markdown-vue","patterns":[{"include":"#vue-code-block"}],"repository":{"vue-code-block":{"begin":"(^|\\\\G)(\\\\s*)(`{3,}|~{3,})\\\\s*(?i:(vue)((\\\\s+|[,:?{])[^`~]*)?$)","beginCaptures":{"3":{"name":"punctuation.definition.markdown"},"4":{"name":"fenced_code.block.language.markdown"},"5":{"name":"fenced_code.block.language.attributes.markdown","patterns":[]}},"end":"(^|\\\\G)(\\\\2|\\\\s{0,3})(\\\\3)\\\\s*$","endCaptures":{"3":{"name":"punctuation.definition.markdown"}},"name":"markup.fenced_code.block.markdown","patterns":[{"include":"text.html.vue"}]}},"scopeName":"markdown.vue.codeblock"}')), m = [
